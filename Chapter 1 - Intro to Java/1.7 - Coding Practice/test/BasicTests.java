@@ -23,7 +23,7 @@ public class BasicTests {
     @Test
     public void testExercise6() {
         String res = runMethodGetConsoleOut( () -> Main.exercise6() );
-        assertEquals("Hello, World!\r\n", res);
+        assertEquals("Hello, world!\r\n", res);
     }
 
     @Test
@@ -42,9 +42,9 @@ public class BasicTests {
         String[] lines = res.split("\r\n");
         assertTrue(lines.length >= 5);
         assertEquals("//////////////////////", lines[0]);
-        assertEquals("|| Vectory is mine! ||", lines[1]);
+        assertEquals("|| Victory is mine! ||", lines[1]);
         assertEquals("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", lines[2]);
-        assertEquals("|| Vectory is mine! ||", lines[3]);
+        assertEquals("|| Victory is mine! ||", lines[3]);
         assertEquals("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", lines[4]);
     }
 
