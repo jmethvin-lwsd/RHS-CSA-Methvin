@@ -4,8 +4,14 @@ public class MathDemo {
 
         // Add code the exercises (run & test) all the code you wrote in this class. 
         // Pick good examples (non-trivial but also something you can hand-verify).  
-        // Be sure to identify the output For example: System.out.println("pow(2, 3) == " + pow(2, 3));
-        // TODO: FINISH CALLING ALL METHODS. 
+        // Be sure to identify the output 
+        // For example: 
+        System.out.println("pow(2, 3) == " + pow(2, 3));
+
+        // Assert call to method pow is equal to expected value
+        assert(pow(2, 3) == 9); // (Expected value is 9 with inputs 2 and 3)
+
+        // TODO: FINISH TESTING AND CALLING ALL OTHER METHODS. 
 
         System.out.println("---- MathDemo: Done ----"); 
     }
@@ -14,7 +20,10 @@ public class MathDemo {
     // computes 'num' to the 'exponent'  Thus pow(2,3) == 8
     // ‘exponent’ is required to be non-negative integer.  
     // num and exponent are both integers. returns an integer.  
-    // TODO: implement a power method
+    public static int pow(int num, int exponent) {
+        // TODO: Finish implementation for pow method. 
+        return 0;
+    }
     
     // ------------------------------------------------------
     // computes n! that is n * (n-1) * (n-2) ... 3 * 2 * 1
@@ -65,7 +74,11 @@ public class MathDemo {
         // TODO: Implement.
         // NOTE YOU MUST PAD INTEGERS so that the table looks pretty.  
         // Thus you immediately can use your padLeft method.  
-        assert(false);   
+        
+        // Simple test to see if you enabled assertions for VS Code/Java
+        // If you did this will crash your code, and when it does, remove this assertion
+        // AND remove this whole comment block.
+        assert(false);
         
         // HINT: To convert an integer to a strings use the method
         // Integer.toString(anInteger) (TODO remove this comment before submitting)
