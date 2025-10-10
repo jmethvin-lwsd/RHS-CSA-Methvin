@@ -9,7 +9,7 @@ public class MathDemo {
         System.out.println("pow(2, 3) == " + pow(2, 3));
 
         // Assert call to method pow is equal to expected value
-        assert(pow(2, 3) == 9); // (Expected value is 9 with inputs 2 and 3)
+        assert(pow(2, 3) == 8); // (Expected value is 9 with inputs 2 and 3)
 
         // TODO: FINISH TESTING AND CALLING ALL OTHER METHODS. 
 
