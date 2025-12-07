@@ -1,0 +1,5 @@
+Input file: data.txt
+-------------------------------------
+Minimum value found:          2
+Maximum value found:        100
+Average of all numbers:    50.7
